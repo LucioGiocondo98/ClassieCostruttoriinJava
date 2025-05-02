@@ -14,5 +14,14 @@ Libro rosemarysbaby = new Libro("Rosemary's Baby", "Roman Polanski", 207);
             diLucio.depositoEPrelievoDenaro();
             diLucionona0.stampaSaldo();
             diLucionona0.depositoEPrelievoDenaro();
+
+            Studenti lucio = new Studenti("Lucio", "Giocondo");
+                    lucio.listaVoti[0]= 27;
+            lucio.listaVoti[1]= 24;
+            lucio.listaVoti[2]= 20;
+            lucio.listaVoti[3]= 28;
+            lucio.listaVoti[4]= 18;
+             lucio.stampaDettagli();
+             lucio.calcolaMedia();
     }
     }
